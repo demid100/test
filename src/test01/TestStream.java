@@ -11,10 +11,10 @@ public class TestStream {
         Files.lines(Paths.get("D:\\java\\project\\test\\src\\test01\\2015.txt"))
                 .filter((s) -> s.contains("малыш"))
                 .sorted(((o1, o2) -> o2.compareTo(o1)))
-                .peek( (s) -> System.out.println(count[0]++ + " " + s))
+                .peek((s) -> System.out.println(count[0]++ + " " + s))
                 .limit(50)
                 .forEach(System.out::println);
 
     }
-
 }
+
