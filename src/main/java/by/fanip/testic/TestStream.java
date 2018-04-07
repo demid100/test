@@ -1,4 +1,4 @@
-package java.by.fanip.testic;
+package by.fanip.testic;
 
 import java.io.IOException;
 import java.nio.file.Files;

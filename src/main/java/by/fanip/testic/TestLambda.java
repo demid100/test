@@ -1,4 +1,4 @@
-package java.by.fanip.testic;
+package by.fanip.testic;
 
 public class TestLambda {
     public static void main(String[] args) {
